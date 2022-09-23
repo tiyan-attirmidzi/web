@@ -179,12 +179,12 @@ sup {
 }
 
 a {
-  color: #879367;
+  color: #11bae1;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #467370;
+  color: #41d1f1;
   text-decoration: underline;
 }
 
@@ -8187,7 +8187,7 @@ button.bg-black:focus {
 
 .mb-4,
 .my-4 {
-  margin-bottom: 0rem !important;
+  margin-bottom: 1.5rem !important;
 }
 
 .ml-4,
