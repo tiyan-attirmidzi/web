@@ -4439,15 +4439,7 @@ input[type='button'].btn-block {
 }
 
 .icon-instagram {
-  background: url('../assets/icon/instagram.svg');
-  height: 30px;
-  width: 30px;
-  display: block;
-  /* Other styles here */
-}
-
-.icon-dribbble {
-  background: url('../assets/icon/dribbble.svg');
+  background: url('../assets/icon/icons8/icons8-instagram.svg');
   height: 30px;
   width: 30px;
   display: block;
@@ -4455,7 +4447,15 @@ input[type='button'].btn-block {
 }
 
 .icon-github {
-  background: url('../assets/icon/github.svg');
+  background: url('../assets/icon/icons8/icons8-github.svg');
+  height: 30px;
+  width: 30px;
+  display: block;
+  /* Other styles here */
+}
+
+.icon-linkedin {
+  background: url('../assets/icon/icons8/icons8-linkedin.svg');
   height: 30px;
   width: 30px;
   display: block;
@@ -4463,17 +4463,17 @@ input[type='button'].btn-block {
 }
 
 .icon-youtube {
-  background: url('../assets/icon/youtube.svg');
+  background: url('../assets/icon/icons8/icons8-youtube.svg');
   height: 32px;
   width: 32px;
   display: block;
   /* Other styles here */
 }
 
-.icon-medium {
-  background: url('../assets/icon/medium.svg');
-  height: 32px;
-  width: 32px;
+.icon-twitter {
+  background: url('../assets/icon/icons8/icons8-twitter.svg');
+  height: 30px;
+  width: 30px;
   display: block;
   /* Other styles here */
 }
