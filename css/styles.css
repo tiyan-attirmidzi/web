@@ -10709,12 +10709,13 @@ body {
       rgba(48, 48, 48, 0) 90%,
       #303030 100%
     ),
-    url('../assets/img/bg-web.png');
+    url('../assets/img/bg-hero-newest.png');
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
 }
+
 .masthead h1 {
   font-family: 'Museo sans', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
@@ -10743,6 +10744,12 @@ body {
     font-size: 2.5rem;
     line-height: 4rem;
     letter-spacing: 0.3rem;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .masthead {
+      background: none;
   }
 }
 
