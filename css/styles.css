@@ -4471,7 +4471,23 @@ input[type='button'].btn-block {
 }
 
 .icon-twitter {
-  background: url('../assets/icon/icons8/icons8-twitter.svg');
+  background: url('../assets/icon/icons8/icons8-x.svg');
+  height: 30px;
+  width: 30px;
+  display: block;
+  /* Other styles here */
+}
+
+.icon-threads {
+  background: url('../assets/icon/icons8/icons8-threads.svg');
+  height: 30px;
+  width: 30px;
+  display: block;
+  /* Other styles here */
+}
+
+.icon-gitlab {
+  background: url('../assets/icon/icons8/icons8-gitlab.svg');
   height: 30px;
   width: 30px;
   display: block;
@@ -10709,7 +10725,7 @@ body {
       rgba(48, 48, 48, 0) 90%,
       #303030 100%
     ),
-    url('../assets/img/bg-masterhead.png');
+    url('../assets/img/bg-masterhead-ghibli.png');
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;

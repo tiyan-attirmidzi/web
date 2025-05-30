@@ -25,10 +25,7 @@
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
-    <link
-        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
-        rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- CSS Source -->
@@ -50,9 +47,7 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Project</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skill">Skill</a></li>
-                    <li class="nav-item"><a class="nav-link" style="color:#11BAE1"
-                            href="/curriculum-vitae"
-                            target="_blank">Download CV</a></li>
+                    <li class="nav-item"><a class="nav-link" style="color:#11BAE1" href="/curriculum-vitae" target="_blank">Download CV</a></li>
                 </ul>
             </div>
         </div>
@@ -66,20 +61,18 @@
                 <h3 class="mx-auto text-left">Hi, </h3>
                 <h1 class="mx-auto text-left">I'm Tiyan</h1>
                 <h2 class="text-white-50 mt-2 mb-5">
-                    I’m from Indonesia and I have been working as a Software Engineer
-                    more than 2 years. Currently, I Working at SALT INDONESIA as a Back-End Developer.
+                    I'm a Software Engineer from Indonesia with over <span id="years-experience"></span>+ years of experience.
+                    Currently, I'm part of IGLO, working as a Back-End Developer.
                 </h2>
                 <a class="btn btn-primary" href="mailto:tiyanattirmidzi20@gmail.com">Contact Me</a>
                 <div class="social d-flex justify-content-left align-items-center" style="margin-top: 4.5rem">
-                    <a class="mx-2 icon-instagram" href="https://www.instagram.com/tiyan.attirmidzi"
-                        target="_blank"></a>
-                    <a class="mx-2 icon-github" href="https://github.com/tiyan-attirmidzi" target="_blank"></a>
-                    <a class="mx-2 icon-youtube" href="https://www.youtube.com/channel/UCDCIrowICO6gELKByk7S9Dw"
-                        target="_blank"></i></a>
-                    <a class="mx-2 icon-linkedin"
-                        href="https://www.linkedin.com/in/tiyan-addar-quthni-attirmidzi-223475156/"
-                        target="_blank"></i></a>
+                    <a class="mx-2 icon-instagram" href="https://www.instagram.com/tiyan.attirmidzi" target="_blank"></a>
+                    <a class="mx-2 icon-threads" href="https://www.threads.com/@tiyan.attirmidzi" target="_blank"></i></a>
+                    <!-- <a class="mx-2 icon-youtube" href="https://www.youtube.com/channel/UCDCIrowICO6gELKByk7S9Dw" target="_blank"></i></a> -->
+                    <a class="mx-2 icon-linkedin" href="https://www.linkedin.com/in/tiyan-attirmidzi" target="_blank"></i></a>
                     <a class="mx-2 icon-twitter" href="https://twitter.com/onggolll" target="_blank"></i></a>
+                    <a class="mx-2 icon-github" href="https://github.com/tiyan-attirmidzi" target="_blank"></a>
+                    <a class="mx-2 icon-gitlab" href="https://gitlab.com/tiyan-attirmidzi" target="_blank"></a>
                 </div>
             </div>
         </div>
@@ -254,6 +247,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+
+    <script>
+        const startYear = 2022;
+        const currentYear = new Date().getFullYear();
+        const yearsExperience = currentYear - startYear;
+
+        document.getElementById("years-experience").textContent = yearsExperience;
+    </script>
 </body>
 
 </html>
